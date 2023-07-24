@@ -1,19 +1,21 @@
-# card-details-form
+# Interactive Card Details Form [Frontend Mentor Challenge]
 
-## Project setup
-```
-npm install
-```
+![Design preview for the Interactive card details form coding challenge](./src/assets/images/thumbnail/thmbn%20_%20form.png )
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+ -- The initial design and documentation are from [Frontend Mentor](https://www.frontendmentor.io) --
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Overview
+
+User has to input valid credit card data into the required fields. <br>
+Input data is updated live in the credit card mockup on the side or top of the page. <br>
+After the user inputs valid data, pressing the 'Confirm' button will show another screen confirming the correct input. 
+
+Error handling includes : 
+  -  No numbers or special characters in Cardholder Name
+  - No letters or special characters in Card Number, Expiry Date or CVC
+  - No empty fields
+  - Amount of numbers in respective fields
+  - Expiry Date can not be in the past
+
