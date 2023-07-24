@@ -18,3 +18,5 @@ git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:LukasBajla/VUE--Interactive-Card-Details-Form.git main:gh-pages
+
+cd-
